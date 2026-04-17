@@ -330,10 +330,6 @@
         <td>Technical gap</td>
         <td>Reliable relative pose estimation under intermittent visual measurements</td>
       </tr>
-      <tr>
-        <td>Key decision</td>
-        <td>Marker-based setup vs. markerless model-based pose estimation</td>
-      </tr>
     </table>
 
     <h2><span class="sec-num">1</span> Prior Work by Ali Shokor</h2>
@@ -417,7 +413,7 @@
       <h3>Proposed next steps</h3>
       <ol class="direction-steps">
         <li>Start with one leader and one follower</li>
-        <li>Use a known leader geometry first (marker or known 3D model)</li>
+        <li>Use a known leader geometry first (3D model)</li>
         <li>Estimate relative state from the camera using bearing + depth/pose reconstruction</li>
         <li>Add filtering to handle noisy and intermittent measurements</li>
       </ol>
